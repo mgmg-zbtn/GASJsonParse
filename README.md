@@ -27,7 +27,8 @@ GAS自体スプレッドシートと紐づけてしか動かさないし動か�
 
 ## totalization
 [セットコミック販売履歴](https://docs.google.com/spreadsheets/d/1N6jmvDG8nuW8KOIi3unUIZL_-58r1PIPFpJGClVWptI/edit?usp=sharing)  
-手動での集計をGASで自動化させた実用例
+手動での集計をGASで自動化させた実用例  
+月毎に入力されたデータを「集計」シートにまとめる  
 
 |      GAS     |    ボタン		|
 |--------------|------------|
