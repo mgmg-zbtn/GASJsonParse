@@ -4,14 +4,14 @@ GoogleAppScriptをローカルに保存する機能
 
 ---
 
-ブラウザでjson形式でダウンロード  
+ブラウザでjson形式でダウンロード（手動）  
 ファイルをもとに、ディレクトリを作ってGASプロジェクトをローカルに再構成する  
 
 ---
   
 ID = "ur google app script project id";
   
-https://script.google.com/feeds/download/export?id=" + ID + "&format=json
+[h]ttps://script.google.com/feeds/download/export?id=" + ID + "&format=json
   
 json file download and set root directory
   
@@ -22,6 +22,8 @@ json file download and set root directory
 作ったものをgithubにまとめたいと思った  
 自動化したかったけどかかる労力に見合わないのでここまで  
 GAS自体スプレッドシートと紐づけてしか動かさないし動かせない  
+あまり有益なモノにはならなかった
+JSONパースにGSON使ったことくらい
 
 ---
 
@@ -36,3 +38,4 @@ GAS自体スプレッドシートと紐づけてしか動かさないし動か�
 |   reduction  | 重複なし集計	|
 |      yahoo   |  ヤフオク集計	|
 
+  
