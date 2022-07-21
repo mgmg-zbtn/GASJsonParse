@@ -1,23 +1,33 @@
 # GASJsonParse
+  
+GoogleAppScriptをローカルに保存する機能  
 
-Google Drive API は面倒
-<br>
-ブラウザでjsonダウンロードまでは手動
-<br>
-ダウンロードしたファイルをもとに、ディレクトリを作ってGASプロジェクトを再構成する
-
-作ったものをgithubにまとめたいと思った
-<br>
-自動化したかったけどかかる労力に見合わないのでここまで
-<br>
-GAS自体スプレッドシートと紐づけてしか動かさないし動かせない
-
-
+---
+ブラウザでjson形式でダウンロード  
+ファイルをもとに、ディレクトリを作ってGASプロジェクトをローカルに再構成する  
+---
+  
 ID = "ur google app script project id";
-<br>
+  
 https://script.google.com/feeds/download/export?id=" + ID + "&format=json
-<br>
+  
 json file download and set root directory
-<br>
-
+  
 @since 2022/07/12
+  
+---
+作ったものをgithubにまとめたいと思った  
+自動化したかったけどかかる労力に見合わないのでここまで  
+GAS自体スプレッドシートと紐づけてしか動かさないし動かせない  
+---
+
+## totalization
+[セットコミック販売履歴](https://docs.google.com/spreadsheets/d/1N6jmvDG8nuW8KOIi3unUIZL_-58r1PIPFpJGClVWptI/edit?usp=sharing)
+手動での集計をGASで自動化させた実用例
+
+|      GAS     |    ボタン		|
+|--------------|------------|
+| totalization |   重複集計	|
+|   reduction  | 重複なし集計	|
+|      yahoo   |  ヤフオク集計	|
+
