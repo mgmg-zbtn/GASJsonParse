@@ -1,5 +1,4 @@
 function convert(data) {
-
   let l = Object.keys(data).length;
   let temp = new Array(l);
   for (let i = 0; i < l; i++) {
@@ -9,12 +8,11 @@ function convert(data) {
     temp[i][2] = data[i][3];
     temp[i][3] = data[i][4];
   }
-
   return temp;
 }
 
 
-function isSheetEists(spreadSheet, targetSheet) {
+function isSheetExists(spreadSheet, targetSheet) {
   let temp = spreadSheet.getSheets();
   for (let i = 0; i < temp.length; i++) {
     if (targetSheet === temp[i].getName()) return true;
